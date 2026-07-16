@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us — 24/7 Dispatch | RouteX Transportation LLC</title>
+<meta name="description" content="Contact RouteX Transportation: 24/7 dispatch line +1 (346) 443-9457, info@routextransportationllc.com. Brecksville, OH. We respond within 15 minutes." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="site-header"></div>
+
+<section class="page-hero">
+  <div class="hero-grid"></div>
+  <div class="glow glow-1"></div>
+  <div class="bgtext" style="font-size:clamp(60px,15vw,220px);">CONTACT</div>
+  <div class="container rel">
+    <p class="breadcrumb"><a href="index.html">Home</a> / <span class="cur">Contact</span></p>
+    <h1>Get in <span class="lime">Touch.</span></h1>
+    <p class="sub">Our team is available 24/7/365. Reach out via the form, call us directly, or send an email — we respond fast.</p>
+  </div>
+  <div class="hr-lime"></div>
+</section>
+
+<section class="dark2" style="padding:64px 0;">
+  <div class="glow" style="bottom:0; right:0; width:384px; height:384px; background:radial-gradient(circle,rgba(200,255,0,.06) 0%,transparent 70%); filter:blur(60px);"></div>
+  <div class="container rel">
+    <div class="contact-grid">
+      <div>
+        <div class="cinfo">
+          <div class="ib"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8FF00" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><div class="k">Phone (24/7/365)</div><a href="tel:+13464439457">+1 (346) 443-9457</a></div>
+        </div>
+        <div class="cinfo">
+          <div class="ib"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8FF00" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+          <div><div class="k">Email</div><a href="mailto:info@routextransportationllc.com">info@routextransportationllc.com</a></div>
+        </div>
+        <div class="cinfo">
+          <div class="ib"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8FF00" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="k">Headquarters</div><span style="color:#fff; font-size:14px; font-weight:500;">10060 Brecksville Rd, Brecksville, OH 44141</span></div>
+        </div>
+        <div class="emergency">
+          <div class="hd"><div class="dot"></div><span>Emergency Dispatch</span></div>
+          <p>Need freight moved immediately? Call our emergency dispatch line — available 24 hours a day, 365 days a year.</p>
+          <a href="tel:+13464439457">📞 +1 (346) 443-9457</a>
+        </div>
+        <div class="emergency" style="margin-top:16px; border-color:rgba(255,255,255,.1); background:rgba(255,255,255,.03);">
+          <div class="hd"><div class="dot" style="animation:none;"></div><span style="color:rgba(255,255,255,.7);">Drivers</span></div>
+          <p>Looking to drive for RouteX? Use the dedicated application form — recruiting answers within 24 hours.</p>
+          <a href="drivers.html" style="color:var(--lime);">Driver Application →</a>
+        </div>
+      </div>
+      <div>
+        <form class="cform" onsubmit="return submitForm(event)" data-subject="Contact form — RouteX" data-success="Message sent! We'll get back to you shortly.">
+          <input type="hidden" name="form_type" value="Contact Request" />
+          <div class="row">
+            <div><label>Full Name *</label><input type="text" name="name" placeholder="John Smith" required /></div>
+            <div><label>Email *</label><input type="email" name="email" placeholder="john@company.com" required /></div>
+          </div>
+          <div class="row">
+            <div><label>Phone</label><input type="tel" name="phone" placeholder="(555) 000-0000" /></div>
+            <div><label>Company</label><input type="text" name="company" placeholder="Your Company" /></div>
+          </div>
+          <div><label>Message *</label><textarea rows="5" name="message" placeholder="Tell us about your freight needs..." required></textarea></div>
+          <button type="submit" class="btn-lime display submit">Send Message ✈</button>
+          <p class="note">We respond to all inquiries within 15 minutes during business hours.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="app.js"></script>
+</body>
+</html>
