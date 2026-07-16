@@ -8,7 +8,7 @@
 // Вариант A (рекомендуется): зарегистрируйся на formspree.io и вставь
 // endpoint сюда — все формы И передача чата человеку будут приходить
 // на почту автоматически. Пример: 'https://formspree.io/f/abcdwxyz'
-const FORMSPREE_ENDPOINT = '';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mykrezpw';
 const CONTACT_EMAIL = 'info@routextransportationllc.com';
 const PHONE_DISPLAY = '+1 (346) 443-9457';
 const PHONE_TEL = '+13464439457';
