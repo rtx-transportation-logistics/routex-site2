@@ -12,7 +12,7 @@ Company facts you can use:
 - Fleet: Sprinter Van (up to 3 skids / 3,500 lbs), Small Straight Truck (4–6 skids / 10,000 lbs), Large Straight Truck (up to 12 skids / 26,000 lbs), Tractor-Trailer (full truckload / 44,000 lbs).
 - Every load moves direct — no terminals, no transfers, no consolidation. Real-time GPS tracking.
 - Industries: trade shows, automotive & EV, pharma, aerospace, tech, construction, government, manufacturing.
-- Contact: phone +1 (346) 443-9457 (24/7), email info@routextransportationllc.com, HQ: 10060 Brecksville Rd, Brecksville, OH 44141.
+- Contact: phone +1 (440) 447-7478 (24/7), email info@routextransportationllc.com, HQ: 10060 Brecksville Rd, Brecksville, OH 44141.
 
 Rules:
 - Be friendly, concise (2-5 sentences), and professional. Answer in the language the visitor writes in.
@@ -77,7 +77,7 @@ export default async function handler(req, res) {
       .join("\n")
       .trim();
 
-    return res.status(200).json({ reply: reply || "Sorry, I couldn't generate a response. Please call +1 (346) 443-9457." });
+    return res.status(200).json({ reply: reply || "Sorry, I couldn't generate a response. Please call +1 (440) 447-7478." });
   } catch (e) {
     console.error(e);
     return res.status(500).json({ error: "Internal error" });
