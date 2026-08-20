@@ -91,6 +91,10 @@ document.getElementById('site-footer').innerHTML = `
   <div class="foot-bottom">
     <div class="container">
       <p>© 2026 RouteX Transportation LLC. All rights reserved.</p>
+      <div class="links">
+        <a href="privacy-policy.html" style="color:rgba(255,255,255,.2);font-size:12px;text-transform:uppercase;letter-spacing:.1em;">Privacy Policy</a>
+        <a href="terms.html" style="color:rgba(255,255,255,.2);font-size:12px;text-transform:uppercase;letter-spacing:.1em;">Terms &amp; Conditions</a>
+      </div>
     </div>
   </div>
 </footer>`;
